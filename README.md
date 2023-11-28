@@ -101,40 +101,52 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
-/* write all the steps invloved */
-
-
+### Procedure:
+Step:1 Open Quartus II and select new project and choose the file location.
+Step:2 Module Declaration. Module should have the file name.
+Step:3 Declare Inputs and outputs.
+Step:4 Use assign declaration and wire to define the functionality of logic circuits.
+Step:5 End the program with endmodule.
+Step:6 Run the program and choose RTL viewer to get RTL realization.
 
 ### PROGRAM 
-/*
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: SONU S
+RegisterNumber:  23005566
 
+### CODE:
 
+### D flip - flop:
+![Exp5 dfp code](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/5bb467f2-3c80-4314-b360-94f83a144c35)
+### T flip - flop:
+![Exp5 tfp code](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/a588c3c8-edfc-448b-823e-449681cf8916)
+### JK flip - flop:
+![Exp5 jkfp code](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/91710087-4de3-4252-a6b6-7d78befdee40)
+### SR flip - flop:
+![Exp5 srfp code](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/bfdf12d9-841e-4b68-ac2d-3d0585519bb3)
 
+### RTL flip - flop:
 
+### D flip - flop:
+![Exp5 dfp RTL diagram](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/4c2790b8-c6d8-4395-8da1-ae38ed47be95)
+### T flip - flop:
+![Exp5 tfp RTL diagram](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/200c8fac-84dd-41db-bc07-9b3ffccfea8a)
+### JK flip - flop:
+![Exp5 jkfp RTL diagram](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/f2f0b607-681d-4ee3-9155-5a85d7776b5f)
+### SR flip - flop:
+![Exp5 srfp RTL diagram](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/284baca8-560c-4cd2-96f7-8f63e84a2454)
 
+### TIMING DIAGRAM:
+### D flip - flop:
+![d wave](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/48fad381-5ecd-4cf4-b2d5-d4314da3a3be)
+### T flip - flop:
+![t wave](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/bd8b60b7-9a00-463c-bbf0-be53de4232cd)
+### JK flip - flop:
+![jk wave](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/f9caee9c-cbae-4dea-9ae5-3c1287e17148)
+### SR flip - flop:
+![sr wave](https://github.com/ssonuma/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150653312/317f153c-f129-49de-b0de-22a98b6c9156)
 
-### RTL LOGIC FOR FLIPFLOPS 
+### RESULTS :Thus, the program for flipflops is implemented and its functional table is successfully verified in
+quartus using Verilog programming.
 
-
-
-
-
-
-
-
-
-### TIMING DIGRAMS FOR FLIP FLOPS 
-
-
-
-
-
-
-
-
-### RESULTS 
